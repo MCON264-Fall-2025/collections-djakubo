@@ -13,7 +13,7 @@ package edu.touro.mcon264.apps.collections;
 public class ArrayCollection<T> implements CollectionInterface<T>  
 {
   protected final int DEFCAP = 100; // default capacity
-  protected T[] elements;           // array to hold collection�s elements
+  public T[] elements;           // array to hold collection�s elements
   protected int numElements = 0;    // number of elements in this collection
 
   // set by find method

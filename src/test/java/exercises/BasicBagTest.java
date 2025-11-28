@@ -102,7 +102,6 @@ public class BasicBagTest {
         BasicBag<String> bag = newBag();
         bag.add("a");
         bag.add("b");
-
         int originalSize = bag.size();
         String grabbed = bag.grab();
 
